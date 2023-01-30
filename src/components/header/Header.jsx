@@ -3,7 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
-import ME from '../../assets/me.jpg'
+import ME from '../../assets/me.png'
 
 const Header = () => {
   return (
