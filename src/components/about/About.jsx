@@ -54,7 +54,7 @@ const About = () => {
             This was my first taste of programming and have thoroughly enjoyed learning more and more since. I recently took the plunge and
               completed the Le Wagon Web Development bootcamp in Melbourne. This gave me a great foundation for web development, where I used
               Ruby on Rails as my main framework.<br/><br/>
-            I'm super excited to have made the transition into the tech industry and am motivated to continuing learning and improving in my field! <br/><br/>
+            I'm super excited to have made the transition into the tech industry and am motivated to continue learning and improving in my field! <br/><br/>
             If you want to know more, drop me a message! ☺️
           </p>
 

@@ -23,8 +23,8 @@ const Contact = () => {
           <div className="contact__option">
             <IoMdMail className='contact__option-icon'/>
             <h3>Email</h3>
-            <h4>shelley.timmins@hotmail.co.uk</h4>
-            <a href="mailto:shelley.timmins@hotmail.co.uk" target='_blank' className='btn'>Send an email</a>
+            <h4>shelley.timmins2@gmail.com</h4>
+            <a href="mailto:shelley.timmins2@gmail.com" target='_blank' className='btn'>Send an email</a>
           </div>
           <div className="contact__option">
             <AiFillPhone className='contact__option-icon'/>
