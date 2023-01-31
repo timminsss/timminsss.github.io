@@ -22,22 +22,22 @@ const Contact = () => {
         <div className="contact__options">
           <div className="contact__option">
             <IoMdMail className='contact__option-icon'/>
-            <h4>Email</h4>
-            <h5>shelley.timmins@hotmail.co.uk</h5>
+            <h3>Email</h3>
+            <h4>shelley.timmins@hotmail.co.uk</h4>
             <a href="mailto:shelley.timmins@hotmail.co.uk" target='_blank' className='btn'>Send an email</a>
           </div>
           <div className="contact__option">
             <AiFillPhone className='contact__option-icon'/>
-            <h4>Phone</h4>
-            <h5>0492 479 517</h5>
+            <h3>Phone</h3>
+            <h4>0492 479 517</h4>
             <a href="tel:0492479517" target='_blank' className='btn'>Call me</a>
           </div>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='Your full name' required/>
-          <input type='text' name='email' placeholder='Your email' required/>
-          <textarea name="message" rows="6" placeholder='Your message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send message</button>
+          <input type='text' name='name' placeholder='Full Name' required/>
+          <input type='text' name='email' placeholder='Email' required/>
+          <textarea name="message" rows="6" placeholder='Your Message' required></textarea>
+          <button type='submit' className='btn btn-primary submit-btn'>Send message</button>
         </form>
       </div>
     </section>

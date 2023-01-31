@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -11,9 +11,9 @@ header {
 }
 
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   display: flex;
-  gap: 1.2rem;
+  gap: 1.5rem;
   justify-content: center;
 }
 
@@ -21,6 +21,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: xx-large;
   gap: 0.8rem;
   position: absolute;
   left: 0;
@@ -33,8 +34,9 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 4rem;
-  border-radius: 5rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.2rem 0.7rem var(--color-dark) ;
   overflow: hidden;
 }
 
@@ -43,7 +45,7 @@ header {
   right: -2.5rem;
   bottom: 5rem;
   font-weight: 300;
-  font-size: large;
+  font-size: xx-large;
 }
 
 @media screen and (max-width: 1024px) {
@@ -54,7 +56,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 128vh;
   }
 
   .header__socials, .scroll__down {

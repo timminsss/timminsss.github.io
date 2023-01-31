@@ -38,6 +38,14 @@
   font-size: 0.8rem;
 }
 
+.contact__option > h4 {
+  color: var(--color-white);
+}
+
+.submit-btn {
+  width: 100%;
+}
+
 /* form */
 form {
   display: flex;
@@ -53,6 +61,7 @@ input, textarea {
   color: var(--color-dark);
   border: 2px solid var(--color-primary-variant);
   resize: none;
+  font-family: 'Rubik';
 }
 
 @media screen and (max-width: 1024px) {

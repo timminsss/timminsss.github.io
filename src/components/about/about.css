@@ -1,3 +1,7 @@
+h2 {
+  margin-bottom: 2rem;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
@@ -7,13 +11,13 @@
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;
-  margin-top: 3rem;
+  margin-top: 2rem;
   border-radius: 25px;
   display: grid;
   place-items: center;
   background: linear-gradient(
     45deg,
-    transparent,
+    var(--color-bg-variant),
     var(--color-primary)
   );
 }
@@ -32,7 +36,7 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -60,13 +64,21 @@
   font-size: 1rem;
 }
 
-.about__card small {
+.about__card small, .about__card a {
   font-size: 0.9rem;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
- p {
+.about__card a:hover {
+  color: var(--color-primary);
+}
+
+p {
   margin: 2rem 0 2.6rem ;
+}
+
+li {
+  margin-top: 0.75rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -80,7 +92,7 @@
     margin: 2rem auto 4rem;
   }
 
-  p {
+  .about__content {
     text-align: center;
   }
 }
@@ -92,15 +104,11 @@
   }
 
   .about__cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 
   .about__container {
-    text-align: center;
-  }
-
-  p {
     text-align: center;
   }
 }

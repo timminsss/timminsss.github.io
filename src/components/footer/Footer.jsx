@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>Created by Shelley Timmins, using </small>
+        <small>Ⓒ 2023 - created by Shelley Timmins, powered by </small>
         <FaReact className='react'/>
       </div>
     </footer>

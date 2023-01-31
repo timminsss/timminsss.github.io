@@ -12,6 +12,7 @@ footer a {
 
 .permalinks {
   display: flex;
+  font-size: 1.2rem;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
@@ -38,7 +39,7 @@ footer a {
   background-color: transparent;
   color: var(--color-bg);
   border-color: var(--color-bg);
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .footer__copyright {
@@ -47,5 +48,33 @@ footer a {
 }
 
 .react {
-  font-size: 2rem;
+  color: var(--color-white);
+  margin-left: 0.25rem;
+  font-size: 1.5rem;
+  animation: spin 5s infinite linear;
+  vertical-align: middle;
+}
+
+small {
+  color: var(--color-white);
+}
+
+@keyframes spin {
+  from {
+      transform: scale(1) rotate(0deg);
+  }
+  to {
+      transform: scale(1) rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer__socials {
+    margin-bottom: 2.5rem;
+  }
 }
