@@ -5,6 +5,7 @@ import Bookappo from '../../assets/portfolio2.png'
 import RPS from '../../assets/portfolio3.png'
 import Connect4 from '../../assets/portfolio4.png'
 import Calc from '../../assets/portfolio5.png'
+import Todo from '../../assets/portfolio6.png'
 
 const portfolioData = [
   {
@@ -41,6 +42,13 @@ const portfolioData = [
     title: 'Calculator',
     github: 'https://github.com/timminsss/calculator-react-app',
     demo: 'https://timminsss.github.io/calculator-react-app/'
+  },
+  {
+    id: 6,
+    image: Todo,
+    title: 'To Do List',
+    github: 'https://github.com/timminsss/to-do-list',
+    demo: 'https://timminsss.github.io/to-do-list/'
   }
 ];
 
